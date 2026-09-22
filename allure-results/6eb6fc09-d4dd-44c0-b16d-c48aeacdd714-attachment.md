@@ -1,0 +1,95 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: handsonExercise/tc04login.spec.ts >> Verify that a sample PDF can be uploaded as an attachment. 
+- Location: tests/handsonExercise/tc04login.spec.ts:12:5
+
+# Error details
+
+```
+Error: page.setInputFiles: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('input[type="file"]')
+    - locator resolved to <input type="file" data-v-1b0f05a0="" class="oxd-file-input"/>
+
+```
+
+# Test source
+
+```ts
+  1  | // Generate login test for the OrangeHRM demo site: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+  2  | // Log in with valid credentials. 
+  3  | // Select the “My Info” tab. 
+  4  | // Open the “Dependents” subtab. 
+  5  | // In the Attachments section, select “Add.” 
+  6  | // Browse to and select a sample PDF from the device. 
+  7  | // Select “Save.
+  8  | 
+  9  | 
+  10 | import { test, expect } from '@playwright/test';
+  11 | 
+  12 | test ('Verify that a sample PDF can be uploaded as an attachment. ', async({page}) => {
+  13 | page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+  14 | await page.fill('input[name="username"]', 'Admin');
+  15 | await page.fill('input[name="password"]', 'admin123');
+  16 | await page.click('button[type="submit"]');
+  17 | await page.click('a[href="/web/index.php/pim/viewMyDetails"]'); // Click on "My Info" tab
+  18 | 
+  19 | await page.click('a[href="/web/index.php/pim/viewDependents/empNumber/7"]'); // Click on "Dependents" subtab
+  20 | 
+  21 | await page.click('button[type="button"]:has-text("Add")'); // Click "Add" button
+  22 | 
+  23 | // await page.fill('input[class="oxd-input oxd-input--active"]', 'DependentName'); // Enter dependent name
+  24 | 
+  25 | await page.getByRole('textbox').nth(1).fill('DependentName');
+  26 | 
+  27 | // await page.selectOption('select[class="oxd-select-text-input"]', 'other'); // Select "Other" as relationship
+  28 | 
+  29 | // await page.getByRole('textbox').nth(2).fill('other');
+  30 | 
+  31 | // await page.locator('.oxd-select-option', { hasText: /^Other$/ }).click();
+  32 | 
+  33 | const dropdown = page.locator('.orangehrm-edit-employee-content form .oxd-select-text-input').first();
+  34 |   
+  35 |   // Open the dropdown menu
+  36 |   await dropdown.click();
+  37 | 
+  38 |   // 2. Select the option with the exact text "Other"
+  39 |   const optionOther = page.locator('.oxd-select-option', { hasText: /^Other$/ });
+  40 |   await optionOther.click();
+  41 | 
+  42 |   // 3. Optional assertion to verify "Other" is selected
+  43 |   await expect(dropdown).toHaveText('Other');
+  44 | 
+  45 |   await page.getByRole('textbox').nth(2).isVisible();
+  46 |   await page.getByRole('textbox').nth(2).fill('SpecifiedRelationship');
+  47 | // await page.fill('input[name="relationship"]', 'SpecifiedRelationship'); // Specify the relationship
+  48 | await page.click('button[type="submit"]'); // Click "Save"
+  49 | 
+  50 | // await page.click('button[type="button"]:has-text("Edit")'); // Click "Edit" button for the dependent
+  51 | 
+  52 | await page.locator('//div[@class="oxd-table-body"]/div[1]//button[2]').click();
+  53 | 
+  54 | await page.getByRole('textbox').nth(1).fill('UpdatedDependentName');
+  55 | 
+  56 | 
+  57 | await page.click('button[type="submit"]'); // Click "Save"  
+  58 | await page.getByText('Successfully Updated').waitFor(); // Wait for save confirmation toast
+  59 | 
+  60 | 
+  61 | await page.click('button[type="button"]:has-text("Add")'); // Click "Add" button in Attachments section
+> 62 | 
+     |  ^ Error: page.setInputFiles: Target page, context or browser has been closed
+  63 | const addButton = page.locator('.orangehrm-header-container button, .orangehrm-paper-container button').filter({ hasText: /Add|Save/i }).first();
+  64 | await addButton.click();
+  65 | await page.locator('input[type="file"]').setInputFiles('/Users/rameshbalasubramanian/PlaywrightAutomation/Samplefileupload.rtf'); // Upload sample PDF
+  66 | await page.click('button[type="submit"]'); // Click "Save" for attachment
+  67 | await page.getByText('Successfully Uploaded').waitFor(); // Wait for upload confirmation toast
+  68 | 
+  69 | });
+```

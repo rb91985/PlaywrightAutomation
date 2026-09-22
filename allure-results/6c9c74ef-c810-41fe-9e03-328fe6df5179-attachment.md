@@ -1,0 +1,89 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: handsonExercise/tc03login.spec.ts >> Verify that an existing dependent can be edited. 
+- Location: tests/handsonExercise/tc03login.spec.ts:11:5
+
+# Error details
+
+```
+Error: page.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('button[type="button"]:has-text("Edit")')
+
+```
+
+# Test source
+
+```ts
+  1  | //Generate login test for the OrangeHRM demo site: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+  2  | // Log in with valid credentials. 
+  3  | // Select the “My Info” tab. 
+  4  | // Open the “Dependents” subtab. 
+  5  | // Add a dependent by following TC-2. 
+  6  | // Select the edit icon, update the dependent’s name, and save the changes. 
+  7  | 
+  8  | 
+  9  | import { test, expect } from '@playwright/test';
+  10 | 
+  11 | test ('Verify that an existing dependent can be edited. ', async({page}) => {
+  12 | page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
+  13 | await page.fill('input[name="username"]', 'Admin');
+  14 | await page.fill('input[name="password"]', 'admin123');
+  15 | await page.click('button[type="submit"]');
+  16 | await page.click('a[href="/web/index.php/pim/viewMyDetails"]'); // Click on "My Info" tab
+  17 | 
+  18 | await page.click('a[href="/web/index.php/pim/viewDependents/empNumber/7"]'); // Click on "Dependents" subtab
+  19 | 
+  20 | await page.click('button[type="button"]:has-text("Add")'); // Click "Add" button
+  21 | 
+  22 | // await page.fill('input[class="oxd-input oxd-input--active"]', 'DependentName'); // Enter dependent name
+  23 | 
+  24 | await page.getByRole('textbox').nth(1).fill('DependentName');
+  25 | 
+  26 | // await page.selectOption('select[class="oxd-select-text-input"]', 'other'); // Select "Other" as relationship
+  27 | 
+  28 | // await page.getByRole('textbox').nth(2).fill('other');
+  29 | 
+  30 | // await page.locator('.oxd-select-option', { hasText: /^Other$/ }).click();
+  31 | 
+  32 | const dropdown = page.locator('.orangehrm-edit-employee-content form .oxd-select-text-input').first();
+  33 |   
+  34 |   // Open the dropdown menu
+  35 |   await dropdown.click();
+  36 | 
+  37 |   // 2. Select the option with the exact text "Other"
+  38 |   const optionOther = page.locator('.oxd-select-option', { hasText: /^Other$/ });
+  39 |   await optionOther.click();
+  40 | 
+  41 |   // 3. Optional assertion to verify "Other" is selected
+  42 |   await expect(dropdown).toHaveText('Other');
+  43 | 
+  44 |   await page.getByRole('textbox').nth(2).isVisible();
+  45 |   await page.getByRole('textbox').nth(2).fill('SpecifiedRelationship');
+  46 | 
+  47 | 
+  48 | // await page.fill('input[name="relationship"]', 'SpecifiedRelationship'); // Specify the relationship
+  49 | 
+  50 | 
+  51 | await page.click('button[type="submit"]'); // Click "Save"
+  52 | 
+  53 | 
+  54 | 
+> 55 | // await page.click('button[type="button"]:has-text("Edit")'); // Click "Edit" button for the dependent
+     |            ^ Error: page.click: Target page, context or browser has been closed
+  56 | 
+  57 | await page.locator('//div[@class="oxd-table-body"]/div[1]//button[2]').click();
+  58 | 
+  59 | await page.getByRole('textbox').nth(1).fill('UpdatedDependentName');
+  60 | 
+  61 | 
+  62 | await page.click('button[type="submit"]'); // Click "Save"  
+  63 | await page.getByText('Successfully Updated').waitFor(); // Wait for save confirmation toast
+  64 | });
+```

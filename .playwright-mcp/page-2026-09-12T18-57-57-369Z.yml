@@ -1,0 +1,262 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Go to Google Home" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQPHoECAYQBA
+        - generic [ref=f2e21]:
+          - generic [ref=f2e22]:
+            - combobox "Search" [ref=f2e25]: senior QA automation Playwright TypeScript Ohio remote jobs 2026 senior QA automation Playwright TypeScript Ohio remote jobs 2026
+            - generic [ref=f2e26]:
+              - button "Clear" [ref=f2e28] [cursor=pointer]
+              - generic [ref=f2e33]:
+                - button "Search by voice" [ref=f2e34] [cursor=pointer]
+                - button "Search by image" [ref=f2e37] [cursor=pointer]
+          - button "Search" [ref=f2e40] [cursor=pointer]
+    - generic [ref=f2e45]:
+      - button "Settings" [ref=f2e47] [cursor=pointer]
+      - button "Share" [ref=f2e52] [cursor=pointer]
+      - generic [ref=f2e58]:
+        - button "Google apps" [ref=f2e60] [cursor=pointer]
+        - link "Sign in" [ref=f2e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsenior%2BQA%2Bautomation%2BPlaywright%2BTypeScript%2BOhio%2Bremote%2Bjobs%2B2026%26sei%3DtKClavXcEPvVruEPgfaz6QQ&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e68]:
+    - navigation [ref=f2e74]:
+      - generic [ref=f2e80]:
+        - list [ref=f2e81]:
+          - listitem [ref=f2e82]:
+            - link "AI Mode" [ref=f2e85] [cursor=pointer]:
+              - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ2J8OegQIDxAD
+          - listitem [ref=f2e89]:
+            - link "All" [disabled] [ref=f2e90]
+          - listitem [ref=f2e93]:
+            - link "Jobs" [ref=f2e94] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&udm=8&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQs6gLegQIExAB
+          - listitem [ref=f2e97]:
+            - link "News" [ref=f2e98] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ0pQJegQIFRAB
+          - listitem [ref=f2e101]:
+            - link "Forums" [ref=f2e102] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQs6gLegQIFhAB
+          - listitem [ref=f2e105]:
+            - link "Short videos" [ref=f2e106] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQs6gLegQIFxAB
+          - listitem [ref=f2e109]:
+            - link "Shopping" [ref=f2e110] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFdyo3s0rXeJiZVzQgnibXJi0Phnbo7SaDsZn8E528vNI_3Ok_6n5Jp3PARy-eBTQRuaEpa0MpxohP-IUghqiw_m6IYgW4KA2s5O4aeW31v8TgEWwTrEPjanaoAbr5kBA3LxClxzcTukShCALZh-zEKotx982IwXK8xiytQ5R3h6fnGz_mA&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&ved=1t:220175&ictx=111
+          - listitem [ref=f2e113]:
+            - button [ref=f2e114] [cursor=pointer]:
+              - generic "More filters" [ref=f2e115]: More
+        - button "Tools" [ref=f2e122] [cursor=pointer]
+    - navigation [ref=f2e130]:
+      - navigation [ref=f2e133]:
+        - list [ref=f2e140]:
+          - listitem [ref=f2e141]:
+            - link "Add Remote" [ref=f2e142] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcuXWp505InN_Cm4AfI7oWABiwXULl3NqGfP0rkDXt6j6XTpRzd-n-qLUeIQUXuNQdfoE5LzRS2DO0dd71Kv2QXrdvUZ--haryQKpKwRQoi_Ol_VHCxfohyhY4CXWeTVS2AFABPRkJXGLPq3fEKDlPq9XozQr1pu1a1n8zrhUFwhvhbpmkQ0Yx2KzBR5Vj2ZRoExu_WiumdOgBPmKqQKTLbYqXLE&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQxKsJKAB6BAgbEAE&ictx=0
+              - generic [ref=f2e143]: Remote
+          - listitem [ref=f2e145]:
+            - link "Add No degree" [ref=f2e146] [cursor=pointer]:
+              - /url: /search?sca_esv=638675f18f681488&q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rxDMouz8eucuA9dtrSMvimHar83UH29-8u5u5YY-t6zgoCTTkO0m-ZN4rM2XZEQXQyka0LdzKfJKziBP_ru8pBhC0u_FaeiI3LKzt5j8a_KUIIK2iU8x0Z8gn1zmcOnWiE3_2_H2MoegPQIpBy8TMxUIsXd1ZB0YPKSf2NKuEuQCwvhg1oVmwr0W144L0XkpMQ5iA0neswbIcJ-ejGa-0nE9mnjo&sa=X&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQxKsJKAF6BAghEAE&ictx=0
+              - generic [ref=f2e147]: No degree
+          - listitem [ref=f2e149]:
+            - listitem [ref=f2e151]:
+              - button "Date posted" [ref=f2e153] [cursor=pointer]
+          - listitem [ref=f2e160]:
+            - listitem [ref=f2e162]:
+              - button "Job type" [ref=f2e164] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e171]
+    - generic [ref=f2e176]:
+      - generic [ref=f2e177]:
+        - generic [ref=f2e184]:
+          - heading "Ohio" [level=2] [ref=f2e185]
+          - generic [ref=f2e194]:
+            - text: ∙
+            - button "Choose area" [ref=f2e195] [cursor=pointer]
+          - button "How location is used" [ref=f2e198] [cursor=pointer]
+        - generic [ref=f2e216]:
+          - heading "Thinking" [level=2] [ref=f2e220]
+          - progressbar "Generating" [ref=f2e223]
+      - main [ref=f2e225]:
+        - generic [ref=f2e229]:
+          - generic [ref=f2e232]:
+            - heading "Web results" [level=2] [ref=f2e233]
+            - generic [ref=f2e234]:
+              - generic [ref=f2e237]:
+                - link "Playwright Qa Automation Jobs in Ohio (NOW HIRING) ZipRecruiter https://www.ziprecruiter.com › Jobs › --in-Ohio" [ref=f2e239] [cursor=pointer]:
+                  - /url: /goto?url=CAESfAHrOzAVSQDq18QTYtdlnmCGAJ-vvj7eV_IO0aiAflssR705oXqtFADzWeM2kN6xubYwc4uQ06Kq9jWRy2Z9XyfGY5EQQnYC148Rf93Q8ikWUZHCUaIiIkPvPlthrUpctS3OWtcltTR0owBTVtjTJXVfd-pNsYFQuJLauEM
+                  - heading "Playwright Qa Automation Jobs in Ohio (NOW HIRING)" [level=3] [ref=f2e240]
+                  - generic [ref=f2e246]:
+                    - generic [ref=f2e247]: ZipRecruiter
+                    - generic [ref=f2e249]: https://www.ziprecruiter.com › Jobs › --in-Ohio
+                - button "About this result" [ref=f2e255] [cursor=pointer]
+              - generic [ref=f2e262]:
+                - text: Browse 1000+
+                - emphasis [ref=f2e263]: PLAYWRIGHT QA AUTOMATION jobs
+                - text: from companies hiring now. New openings posted daily—find job postings near you & 1-click apply!
+          - generic [ref=f2e267]:
+            - generic [ref=f2e270]:
+              - link "Qa automation engineer playwright remote jobs Indeed https://www.indeed.com › q-qa-automation-engineer-pla..." [ref=f2e272] [cursor=pointer]:
+                - /url: /goto?url=CAESgwEB6zswFXcPd_Z8HJmKUkA2RqYVCFw214afU2xCuxcNVocejBLYvsRCpaVpyxgTE-o9E_tl4KsmPSRUh_TRoQBy74iG1QqHlDEGxTcQz8-r7D_LtAGtnTDAJZCiewvuHgrRMLid_aZhreGQQiyNSHph-8sVhi98sbOLHxhSuvkPeM8T8Q
+                - heading "Qa automation engineer playwright remote jobs" [level=3] [ref=f2e273]
+                - generic [ref=f2e279]:
+                  - generic [ref=f2e280]: Indeed
+                  - generic [ref=f2e282]: https://www.indeed.com › q-qa-automation-engineer-pla...
+              - button "About this result" [ref=f2e288] [cursor=pointer]
+            - generic [ref=f2e295]:
+              - emphasis [ref=f2e296]: Browse 195 QA Automation Engineer Playwright Remote job openings
+              - text: . Build and maintain a scalable Playwright automation framework using TypeScript or JavaScript. ...
+          - generic [ref=f2e300]:
+            - generic [ref=f2e303]:
+              - link "Senior QA Automation Engineer Playwright, TypeScript ... Mediabistro https://www.mediabistro.com › jobs › 3540462042-seni..." [ref=f2e305] [cursor=pointer]:
+                - /url: /goto?url=CAESngEB6zswFS3eW9CMI3AImGGg8NtiI56E_8puQ4e197-0HcsiflCt_IFM1pwZeDeoONr4GS42rZQgGp4ObjbiVcZGBwxt0nZdM95YHNBgJ8cILRQ1_iPfQ3uyfq_E0OpFLZxA30zqZEJjw7SOysaIKVgdOlLEMIRt5cFjTBwcmofA_gH2ts2-COX0jXGm-s7AFqyTWKchGSiT3WkTKmhqUQ
+                - heading "Senior QA Automation Engineer Playwright, TypeScript ..." [level=3] [ref=f2e306]
+                - generic [ref=f2e312]:
+                  - generic [ref=f2e313]: Mediabistro
+                  - generic [ref=f2e315]: https://www.mediabistro.com › jobs › 3540462042-seni...
+              - button "About this result" [ref=f2e321] [cursor=pointer]
+            - generic [ref=f2e327]:
+              - generic [ref=f2e328]: Jun 17, 2026 —
+              - generic [ref=f2e329]:
+                - text: Ideal candidates will have 5-10 years of experience in testing, particularly with
+                - emphasis [ref=f2e330]: Playwright
+                - text: ","
+                - emphasis [ref=f2e331]: TypeScript
+                - text: ", and manual testing methodologies."
+              - link "Read more" [ref=f2e332] [cursor=pointer]:
+                - /url: /goto?url=CAESiQIB6zswFQMC6TpUuwqB58YXc_wcZWlHBOEFFeKH3jOlOL6Z-prIBuPTwCO4WATz4eul5zSv2Uz-Fw4cqZYg9xgVlDu5IP8XZ0nxqHH-396sgZyPUeQtg3CMjlUThkA490ZHHdVbdm1Cdzbzzw5xzRNp8OJLzmO7mbvxe1799zMvC-tA0jTMO2UX458q1Zfz-ojRi1WND-kUzRteQLIOBGaw3fLYl2P5iNzy_iOVLp6UQb-DNPMfKpNDHa-KT0bX63ZBgLKL8emLlecB8a4--_El87S24oqgBmXdGMPKNzfzJxMak3MTcqOHKQocyf3MyqFNTax3MBf4EFQ9v55g9H2LqpzLZgqIsvy_
+          - generic [ref=f2e336]:
+            - generic [ref=f2e339]:
+              - link "Senior QA Automation Engineer — Playwright, TypeScript JobLeads https://www.jobleads.com › job › senior-qa-automation-e..." [ref=f2e341] [cursor=pointer]:
+                - /url: /goto?url=CAEStgEB6zswFWya2-Xb_goBh1sdgFc3MHfc87kFovMRwdyU9cmTxjEKyp0h3XRvBuqqZaOapcYMVCGrpMjt2j5bJr8B4emizX1G6OaelfnlRVZv6yDGMYwkWsfj_wQlM7lkdm8Bh6CReZet6Z-VIxm20ELdeg6D07iwEq5c62Uzz8mCE8OPnK_jF8InWSsjoPOYCX-xV8TAL0JNOA66hSs2L1mfgtuoZra41qesU87S3CZiLLzTdNTgGw
+                - heading "Senior QA Automation Engineer — Playwright, TypeScript" [level=3] [ref=f2e342]
+                - generic [ref=f2e348]:
+                  - generic [ref=f2e349]: JobLeads
+                  - generic [ref=f2e351]: https://www.jobleads.com › job › senior-qa-automation-e...
+              - button "About this result" [ref=f2e357] [cursor=pointer]
+            - generic [ref=f2e364]:
+              - text: Hybrid USD 90,000 - 120,000 Full time 14 days+. This position requires hands-on coding with
+              - emphasis [ref=f2e365]: Playwright
+              - text: to design and maintain
+              - emphasis [ref=f2e366]: automation
+              - text: frameworks for web ...
+          - generic [ref=f2e370]:
+            - generic [ref=f2e373]:
+              - link "$43-$61/hr Playwright Qa Automation Jobs in Columbus, OH ZipRecruiter https://www.ziprecruiter.com › Jobs › -in-Columbus,OH" [ref=f2e375] [cursor=pointer]:
+                - /url: /goto?url=CAESggEB6zswFctq3wNAv38It4-cLbrr7D6QqUM__G9iPlS2s1ggmG3V5PSrhCelakie9E_fFzfu92hQ7uOQ3BwXi_2_7k0Pqj7gn_nmumEwpk5abX4gYO2dxOJsQDuar-imzZrOBbxUrpbnA8HDPUVddqOTkOee4sMjPxrHkOp5mCc0XwAB
+                - heading "$43-$61/hr Playwright Qa Automation Jobs in Columbus, OH" [level=3] [ref=f2e376]
+                - generic [ref=f2e382]:
+                  - generic [ref=f2e383]: ZipRecruiter
+                  - generic [ref=f2e385]: https://www.ziprecruiter.com › Jobs › -in-Columbus,OH
+              - button "About this result" [ref=f2e391] [cursor=pointer]
+            - generic [ref=f2e398]:
+              - text: Browse
+              - emphasis [ref=f2e399]: 701 COLUMBUS, OH PLAYWRIGHT QA AUTOMATION jobs
+              - text: ($43-$61/hr) hiring now. New openings daily. Apply early, get seen first & 1-click ...
+          - generic [ref=f2e403]:
+            - generic [ref=f2e406]:
+              - link "Playwright & TS (Columbus) - Automation Engineer BeBee https://bebee.com › ... › Jobs › Automation Engineer" [ref=f2e408] [cursor=pointer]:
+                - /url: /goto?url=CAES0AEB6zswFfG685457jqZDVTBl1b8YiuLhGQ2v67qZEdNNqSlZ9AC4QdDkkkNMRYMJbVt9VGCWJ7bi_8SE5cXwi5yHQMOsqWnSUzTwzDkoEiyHyCRerm-ra1R-Y06WzAcJ8Q2TcoxHCai_Ze9aQ39-pmLzS7fYk6eY0vM6qZHAYawVsVLqF9RHYfSwnul3iijtMHRsSWrHf8KNx2ihPpGq8wi2U3vM0YEBVZIhbwduDA4EfmHPx8IZ78Q-EWg4BUk-ByZ0t9n7bsaVL8dIZfD5vCQ
+                - heading "Playwright & TS (Columbus) - Automation Engineer" [level=3] [ref=f2e409]
+                - generic [ref=f2e415]:
+                  - generic [ref=f2e416]: BeBee
+                  - generic [ref=f2e418]: https://bebee.com › ... › Jobs › Automation Engineer
+              - button "About this result" [ref=f2e424] [cursor=pointer]
+            - generic [ref=f2e431]:
+              - text: Revel IT in Columbus, OH is seeking a
+              - emphasis [ref=f2e432]: Senior QA Consultant
+              - text: for a full-time contract. The role emphasizes automation with Playwright (UI), TypeScript, T-SQL,
+          - generic [ref=f2e436]:
+            - generic [ref=f2e439]:
+              - link "Best Remote QA Jobs in Dayton, OH 2026 Built In https://builtin.com › remote › dayton › dev-engineering" [ref=f2e441] [cursor=pointer]:
+                - /url: /goto?url=CAEScQHrOzAVZ8RjzFoqcDvN6e2E-1_XJZtk4L5NVghVDhmSmS_w-y6ZT9v5vjmsLLykpCAtqRKpAmAXTmEwc9g_0JcqUbMDstpNEKLa7ClW4ggQEKZD_TSaR_DRdQx2bnu2Hvtj_H8mki44Ob7Dces5aqcf
+                - heading "Best Remote QA Jobs in Dayton, OH 2026" [level=3] [ref=f2e442]
+                - generic [ref=f2e448]:
+                  - generic [ref=f2e449]: Built In
+                  - generic [ref=f2e451]: https://builtin.com › remote › dayton › dev-engineering
+              - button "About this result" [ref=f2e457] [cursor=pointer]
+            - generic [ref=f2e464]:
+              - text: K-131K Annually Senior level.
+              - emphasis [ref=f2e465]: Build Playwright and TypeScript test frameworks
+              - text: covering eligibility, claims, remittance, payment posting, APIs, databases, and ...
+          - generic [ref=f2e469]:
+            - generic [ref=f2e472]:
+              - link "200 QA Automation Jobs & Work in Ohio Indeed https://www.indeed.com › q-qa-automation-l-ohio-jobs" [ref=f2e474] [cursor=pointer]:
+                - /url: /goto?url=CAESbwHrOzAVL3yQwykh9_1Rs-UtgLqrmfFfu2-s8lTxz07cdCTnEEfvQz_d1hO9Vk3bnvp0nQFy1stYfTnFTO8UsKAKFz82vnNBkXDDNIy2-jQQ81UWjkKpqKB3R3CKiVKJypW807zejflrUTq0TXLl5g
+                - heading "200 QA Automation Jobs & Work in Ohio" [level=3] [ref=f2e475]
+                - generic [ref=f2e481]:
+                  - generic [ref=f2e482]: Indeed
+                  - generic [ref=f2e484]: https://www.indeed.com › q-qa-automation-l-ohio-jobs
+              - button "About this result" [ref=f2e490] [cursor=pointer]
+            - generic [ref=f2e497]:
+              - emphasis [ref=f2e498]: Senior Quality Assurance
+              - text: Engineer. United States $65 - $70 an hour. Basic experience in
+              - emphasis [ref=f2e499]: TypeScript
+              - text: programming for test
+              - emphasis [ref=f2e500]: automation
+              - text: using
+              - emphasis [ref=f2e501]: Playwright
+              - text: framework.
+          - generic [ref=f2e505]:
+            - generic [ref=f2e508]:
+              - link "Playwright Automation Jobs in Ohio (NOW HIRING) ZipRecruiter https://www.ziprecruiter.com › Jobs › --in-Ohio" [ref=f2e510] [cursor=pointer]:
+                - /url: /goto?url=CAESeQHrOzAVDDYgkYyeyLO7N8T3-8l1hnJANit4hwa91wCx8oOkjZ9ZCR-lljcKloeJRcPIVKyy3S7-0hgwzGlE9ekaSeuiL_2t_QB2BiuAgcHuCG1RZZwlN5QsiVURFkhbGB5VLHDuN3NKkIgFyZ_tSv2qoUjc60X9Jc8
+                - heading "Playwright Automation Jobs in Ohio (NOW HIRING)" [level=3] [ref=f2e511]
+                - generic [ref=f2e517]:
+                  - generic [ref=f2e518]: ZipRecruiter
+                  - generic [ref=f2e520]: https://www.ziprecruiter.com › Jobs › --in-Ohio
+              - button "About this result" [ref=f2e526] [cursor=pointer]
+            - generic [ref=f2e533]:
+              - text: Browse
+              - emphasis [ref=f2e534]: 114 PLAYWRIGHT AUTOMATION jobs ($87k-$156k) hiring now in OHIO
+              - text: . New openings posted daily. Apply early, get seen first & 1-click apply ...
+        - navigation [ref=f2e537]:
+          - heading "Page Navigation" [level=1] [ref=f2e538]
+          - text: "1"
+          - link "Page 2" [ref=f2e541] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=10&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAE
+            - text: "2"
+          - link "Page 3" [ref=f2e543] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=20&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAG
+            - text: "3"
+          - link "Page 4" [ref=f2e545] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=30&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAI
+            - text: "4"
+          - link "Page 5" [ref=f2e547] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=40&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAK
+            - text: "5"
+          - link "Page 6" [ref=f2e549] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=50&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAM
+            - text: "6"
+          - link "Page 7" [ref=f2e551] [cursor=pointer]:
+            - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=60&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8tMDegQIMRAO
+            - text: "7"
+          - heading [level=2] [ref=f2e553]:
+            - link "Next" [ref=f2e554] [cursor=pointer]:
+              - /url: /search?q=senior+QA+automation+Playwright+TypeScript+Ohio+remote+jobs+2026&sca_esv=638675f18f681488&ei=tKClau27HtforuEP492RgAM&start=10&sa=N&sstk=AS6-VmIp9bkJ6UNpxPQj-PIr6fatB8EG09HwowILcndCbtP-cMUOU1XAS5oUkzGAgXTWOnpBbAg2hSBBWx2bRfcpX3De52z-ewnawA&ved=2ahUKEwjt5ai73OmWAxVXtCsGHeNuBDAQ8NMDegQIMRAQ
+        - navigation
+    - contentinfo [ref=f2e557]:
+      - heading "Footer Links" [level=1] [ref=f2e558]
+      - generic [ref=f2e562]:
+        - generic [ref=f2e566]:
+          - button "Powell, Ohio - From your IP address" [ref=f2e568] [cursor=pointer]:
+            - generic [ref=f2e569]: Powell, Ohio
+            - generic [ref=f2e571]:
+              - text: "-"
+              - generic [ref=f2e572]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f2e574] [cursor=pointer]
+        - generic [ref=f2e577]:
+          - link "Help" [ref=f2e578] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f2e579] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f2e580] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f2e581] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1
